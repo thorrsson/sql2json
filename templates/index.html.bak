@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Persistent Links SQL to JSON</title>
+    <link rel="stylesheet" href="static/sql.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="form">
+        <h2>Persistent Links - SQL to JSON</h2>
+        <table>
+          <form name="sql_json" method="POST" action="/">
+          <tbody>
+            <tr>
+              <td> <label>UserName</label> <input name="userName" autofocus=""
+                  placeholder="UserName"> </td>
+              <td> <label>Password</label> <input name="password"
+                  placeholder="Password" type="password"> </td>
+            </tr>
+            <tr>
+              <td> <label>Server Name</label> <input name="serverName"
+                  placeholder="Password" type="serverName"> </td>
+              <td> <label>Database Name</label> <input name="DatabaseName"
+                  placeholder="DatabaseName" type="DatabaseName"> </td>
+            </tr>
+            <tr>
+              <td> <label>Paste your query here </label> <textarea name="sql"
+                  placeholder="Paste your SQL Here"></textarea> </td>
+              <td> <label>Query Name</label> <input name="fname"
+                  placeholder="Enter a Friendly Name"> </td>
+            </tr>
+            <tr>
+              <td>
+                <center> <input id="submit" name="submit" value="Submit"
+                    type="submit"> </center>
+              </td>
+            </tr>
+          </tbody>
+        </form>
+      </table>
+          
+        <p>&nbsp;</p>
+        <div>
+          <p>Created By: Tim Hunter</p>
+          <p>tim@thunter.ca</p>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Persistent Links SQL to JSON</title>
+    <link rel="stylesheet" href="static/sql.css">
+ <style>
+    .somediv {
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 6px;
+	background: #efefef;
+	border: 2px solid #ddd;
+	height: 450px;
+	width: 450px;
+}
+input {
+	width: 380px;
+	background: #efefef;
+	border: 1px solid #ddd;
+	font-size: 0.9em;
+	color: #666;
+	height: 25px;
+	padding: 10px;
+	margin: 0 auto;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}</style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="form">
+        <h3>Persistent Links - SQL to JSON</h3>
+        <table>
+          <form name="sql_json" method="GET"></form>
+          <tbody>
+            <tr>
+              <td> <label>Persistent URL </label> <input name="res_url" value="{{ res_url }}"
+                  placeholder="Your Link" type="url"> </td>
+              <td> </td>
+              
+            </tr>
+            <tr>
+              <td>
+                <label class="left"> <br>
+                  Resulting JSON </label><div class="" style=?border-radius: 6px; width: 450px; overflow: hidden;?>  <iframe class="somediv" name="results" src="{{ res_url }}" width="450" height="450"  ></iframe></div>
+               </td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+  </body>
+</html>

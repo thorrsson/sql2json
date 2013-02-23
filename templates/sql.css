@@ -1,0 +1,159 @@
+/* Style the text boxes */
+input, textarea {
+	width: 400px;
+	background: #efefef;
+	border: 1px solid #ddd;
+	font-size: 0.9em;
+	color: #666;
+	height: 25px;
+	padding: 10px;
+	margin-top: 3px;
+	-mox-border-radius: 6px;
+	-weblit-border-radius: 6px;
+	border-radius: 6px;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/*  CSS3 styles */
+
+results {
+   	width: 380px;
+	background: #efefef;
+	border: 1px solid #ddd;
+	font-size: 0.9em;
+	color: #666;
+	height: 25px;
+	padding: 10px;
+	margin-top: 3px;
+	margin-left:3px;
+    -mox-border-radius: 6px;
+    -weblit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+
+body {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 13px;
+	color: #000;
+	background-color: #FFF;
+}
+
+#wrapper {
+    
+    margin: 50px auto; /* 50px from the top and auto centered */
+    width: 960px;
+}
+
+#form {
+	margin: 0 auto;
+	width: 800px;
+	-mox-border-radius: 6px;
+	-weblit-border-radius: 6px;
+	border-radius: 6px;
+	display:block
+	margin-left:auto;
+	margin-right: auto;
+	
+} 
+
+h2 {
+	color: #333;
+	background-color: #999;
+	height: 30px;
+	padding: 10px;
+	alignment-baseline: before-edge;
+	text-align: center;
+	box-shadow: 6px 6px #000;
+	width: 812px;
+	-mox-border-radius: 6px;
+	-weblit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+	margin-left: 8px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width: 380px;
+	background: #efefef;
+	border: 1px solid #ddd;
+	font-size: 0.9em;
+	color: #666;
+	height: 25px;
+	padding: 10px;
+	margin-top: 3px;
+	margin-left: 8px;
+	margin-right: auto;
+	-mox-border-radius: 6px;
+	-weblit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+
+
+textarea {
+	height: 213px;
+	color: #666;
+	width: 380px;
+	margin-left: 8px;
+	margin-right: auto;
+	-mox-border-radius: 6px;
+	-weblit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+
+
+input:focus, textarea:focus {
+	
+    border:1px solid #99cc66;
+	-mox-border-radius: 6px;
+	-weblit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#submit {
+	width: 97px;
+	height: 43px;
+	background: url('send_btn.png');
+	text-indent: -9999px;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+	#submit:hover {
+	    opacity:0.9;
+	}
+.right {
+	text-align: right;
+}
