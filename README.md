@@ -9,12 +9,12 @@ I developed this to help decrease the number of times I had to write mysql conne
 Hack away, extend it, fix my (probably) messy code, do what you want with it. if you do something cool with it, let me know. 
 
 To get up and running:
-	install mongodb (I developed against 10gen's repo version on Ubuntu found here: http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
-	install python-mysqldb (I used the Ubuntu Repo version <1.2.3-1build1>)
-	install pymongo (easy_install works fine)
-	install flask (easy_install again)
-	run the app: python ./sql_site.py
-	browse to http://localhost:5000 and try it out
++	install mongodb (I developed against 10gen's repo version on Ubuntu found here: http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/)
++	install python-mysqldb (I used the Ubuntu Repo version <1.2.3-1build1>)
++	install pymongo (easy_install works fine)
++	install flask (easy_install again)
++	run the app: python ./sql_site.py
++	browse to http://localhost:5000 and try it out
 
 I have a pile of TODO items in this project, and will be continuing development
 
